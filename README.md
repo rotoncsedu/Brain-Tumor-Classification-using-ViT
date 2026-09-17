@@ -128,7 +128,7 @@ FastAPI's auto-generated interactive docs at `/docs` let you send requests and i
 
 ### Standalone UI
 
-For a friendlier experience, `gui.html` provides a standalone page that uploads a scan and displays the prediction as a live readout.
+For a friendlier experience, `index.html` provides a standalone page that uploads a scan and displays the prediction as a live readout.
 
 <div align="center">
 
@@ -193,7 +193,7 @@ The server starts at `http://localhost:8000`.
 Brain-Tumor-Classification-using-ViT/
 ├── main.py                    # FastAPI app and route definitions
 ├── predictor.py                 # Loads model and runs inference
-├── gui.html                       # Standalone UI
+├── index.html                       # Standalone UI
 ├── requirements.txt
 ├── screenshots/
 │   ├── swagger.png                # Swagger UI (/docs) screenshot
