@@ -15,7 +15,7 @@ This project fine-tunes a Vision Transformer (ViT) to classify brain MRI scans i
   | `meningioma` | Tumor arising from the meninges, the membranes surrounding the brain and spinal cord |
   | `pituitary` | Tumor arising in the pituitary gland at the base of the brain |
   | `notumor` | No tumor present in the scan |
-- **Test Accuracy:** `[your result]` <!-- TODO: fill in the final test accuracy printed by the training notebook -->
+- **Test Accuracy:** 94.44%
 - **Epochs:** 6
 
 ## API Endpoints
@@ -76,8 +76,7 @@ curl -X POST "http://localhost:8000/predict" \
 ## Installation
 
 ```bash
-git clone [your-repo-url]
-cd brain-tumor-classifier
+git clone https://github.com/rotoncsedu/Brain-Tumor-Classification-using-ViT
 pip install -r requirements.txt
 ```
 
